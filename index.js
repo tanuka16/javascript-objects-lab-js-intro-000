@@ -14,3 +14,7 @@ function deleteFromObjectByKey(object, key){
   delete recipes.Omlet
   return recipes
 }
+function destructivelyDeleteFromObjectByKey(object, key){
+  //returns object without the delete key/value pair:
+  return recipes
+}
