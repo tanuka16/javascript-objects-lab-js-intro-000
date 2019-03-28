@@ -20,8 +20,10 @@ function destructivelyDeleteFromObjectByKey(object, key){
 }
 function destructivelyDeleteFromObjectByKey(object, key){
   //modifies the original object:
+  //returns object without the delete key/value pair:
   //Object.assign({}, recipes, {Omlet: ['eggs']})
-  return Object.assign({}, { Omlet: 'eggs' })
+
+  
   //return recipes;
   //recipes.key = ["eggs"];
   //object.key = ['eggs']
