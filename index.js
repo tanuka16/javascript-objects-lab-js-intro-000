@@ -11,6 +11,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 }
 functions deleteFromObjectByKey(object, key){
   //deletes `key` from a clone of object and returns the new object (it is non-destructive)
-  delete recipes.key
+  delete recipes.Omlet
   return recipes
 }
