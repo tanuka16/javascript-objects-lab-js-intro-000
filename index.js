@@ -1,3 +1,3 @@
 var recipes = {
-  Omlet : "eggs" "onion"
+  Omlet : "eggs", "onion"
 }
