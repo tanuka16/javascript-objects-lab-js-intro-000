@@ -23,6 +23,6 @@ function destructivelyDeleteFromObjectByKey(object, key){
   //Object.assign({}, recipes, {Omlet: ['eggs']})
   return recipes;
   //recipes.key = ["eggs"];
-  object.key = ['eggs']
-  key;
+  //object.key = ['eggs']
+  //key;
 }
